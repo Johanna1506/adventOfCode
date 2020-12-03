@@ -1,8 +1,6 @@
 const fs = require('fs');
 const input = fs.readFileSync('input.txt').toString().trim().split('\n');
 
-
-
 const part1 = () => {
   let result = 0;
 
